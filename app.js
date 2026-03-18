@@ -17,7 +17,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || 'QWBNzy8WCYfHQAhxEW';             // 
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      // 是否开启自动访问保活,false为关闭,true为开启,需同时填写DOMAIN变量
 const XPATH = process.env.XPATH || UUID.slice(0, 8);       // xhttp路径,自动获取uuid前8位
 const SUB_PATH = process.env.SUB_PATH || 'sub';            // 节点订阅路径
-const DOMAIN = process.env.DOMAIN || '';                   // 域名或ip,留空将自动获取服务器ip
+const DOMAIN = process.env.DOMAIN || 'download.yunzhongzhuan.com';                   // 域名或ip,留空将自动获取服务器ip
 const NAME = process.env.NAME || '03';                       // 节点名称
 const PORT = process.env.PORT || 3000;                     // http服务
 
